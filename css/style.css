@@ -331,14 +331,6 @@ header .navbar-default .navbar-nav .active a:hover{
     margin-left: auto;
 }
 
-.butn{
-	margin-top: 20px;
-	border-radius: 50px;
-	width: 15%;
-}
-
-
-
 /*Navigation Scroll*/
 
 header nav.navbar.navbar-fixed-top.navbar-default.navScroll{
@@ -412,30 +404,15 @@ header .navbar-default .navbar-toggle{
 	#projects .col-sm-10{
 		display: block;
 	}
-	#contactMe .clipboard{
-		height: 200px;
-		width: 270px;
-	}
-	#contactMe .clipboard form{
-		padding-top: 3px;
-		padding-left: 10px;
-	}
-
-	#contactMe .clipboard form .input_field{
-		width: 65%;
-		padding-top: 5px;
-	}
-	.butn{
-		margin-top: 0px;
-		border-radius: 10px;
-		width: 20%;
+	.fixed-bg.fixed-bg-contact{
+		height:210px;
 	}
 	#contactMe .contact_image{
 	    height: 50px;
 	    width: 50px;
-	    display: inline-block;
-	    margin-right: 20px;
-	    margin-left: 20px;
+	    display: block;
+	    margin-right: auto;
+	    margin-left: auto;
 	}
 }
 
@@ -450,30 +427,15 @@ header .navbar-default .navbar-toggle{
 		height: 180px  !important;
 		width: 250px  !important; 
 	}
-	#contactMe .clipboard{
-		height: 180px;
-		width: 230px;
-	}
-	#contactMe .clipboard form{
-		padding-top: 3px;
-		padding-left: 10px;
-	}
-
-	#contactMe .clipboard form .input_field{
-		width: 65%;
-		padding-top: 5px;
-	}
-	.butn{
-		margin-top: 0px;
-		border-radius: 10px;
-		width: 20%;
+	.fixed-bg.fixed-bg-contact{
+		height:210px;
 	}
 	#contactMe .contact_image{
 	    height: 50px;
 	    width: 50px;
-	    display: inline-block;
-	    margin-right: 20px;
-	    margin-left: 20px;
+	    display: block;
+	    margin-right: auto;
+	    margin-left: auto;
 	}
 }
 
