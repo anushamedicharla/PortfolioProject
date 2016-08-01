@@ -1,6 +1,5 @@
-<!doctype html>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +23,7 @@
 	
 
 </head>
-<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="20">
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="30">
 	<header id="home" class="fixed-bg fixed-bg-home">
 		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
 			<div class="container">
@@ -40,7 +39,7 @@
 				<div class="collapse navbar-collapse" id="collapse-menu">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="#home" onclick="smoothScrollbyID('home')">Home</a></li>
-						<li><a href="#aboutMe" onclick="smoothScrollbyID('aboutMe')">About</a></li>
+						<li><a href="#aboutMe" onclick="smoothScrollbyID('aboutMe')">About Me</a></li>
 						<li><a href="#skills" onclick="smoothScrollbyID('skills')">Skills</a></li>
 						<li><a href="#projects" onclick="smoothScrollbyID('projects')">Projects</a></li>
 						<li><a href="#contactMe" onclick="smoothScrollbyID('contactMe')">Contact</a></li>
@@ -52,9 +51,8 @@
 		<div class="row fullHeight">
 			<div class="col-md-1 col-sm-0"></div>
 			<div class="col-md-11 col-sm-12 vcenter">
-				<p><h2>"Responsive Web Design is web design done right!!"</h2></p>
-				<cite><h2>-Andy Clare</h2></cite>
-
+				<h2>"Responsive Web Design is web design done right!!"</h2>
+				<cite>-Andy Clare</cite>
 			</div>
 		</div> <!-- row -->
 	</header>
@@ -68,7 +66,6 @@
 				<div class="row">
 				<div class="col-md-1"> </div>
 					<div class="col-md-6">
-						<img id="plane" src="images/bezier_plane.png" />
 						<img id="book_shelf" class = "abtMe_imgs" src="images/books_shelf_3.png">
 						<img id="wall_clock" class = "abtMe_imgs" src="images/wall clock.png"><br>
 						<img id="web_dev" class = "abtMe_imgs_2 animated pulse" src="images/web-design-2.png"> 
@@ -98,19 +95,19 @@
 		<div class="container-fluid">
 			<h1> Skills </h1>
 			<div class="skillScroll">
-				<div><img id="skillList" alt="HTML" title="HTML" src="images/skills/html.png"></div>
-		        <div><img id="skillList" alt="CSS"  title="CSS" src="images/skills/css.png"></div>
-		        <div><img id="skillList" alt="JavaScript" title="JavaScript" src="images/skills/js.png"></div>
-		        <div><img id="skillList" alt="Angular JS Framework" title="Angular JS Framework" src="images/skills/angular.png"></div>
-		        <div><img id="skillList" alt="Bootstrap Framework" title="Bootstrap Framework" src="images/skills/bootstrap.png"></div>
-		        <div><img id="skillList" alt="Git" title="Git" src="images/skills/git.png"></div>
-		        <div><img id="skillList" alt="Gulp JS" title="Gulp JS" src="images/skills/gulp.png"></div>
-		        <div><img id="skillList" alt="SASS Preprocessor" title="SASS Preprocessor" src="images/skills/sass.png"></div>
-		        <div><img id="skillList" alt="jQuery" title="jQuery" src="images/skills/jquery.png"></div>
-		        <div><img id="skillList" alt="Wordpress CMS" title="Wordpress CMS" src="images/skills/wordpress.png"></div>
-		        <div><img id="skillList" alt="PHP" title="PHP" src="images/skills/php.png"></div>
-		        <div><img id="skillList" alt="Firebase Cloud Database" title="Firebase Cloud Database" src="images/skills/firebase.png"></div>
-		        <div><img id="skillList" alt="MySql database" title="MySql database" src="images/skills/mysql.png"></div>
+				<div><img class="skillList" alt="HTML" title="HTML" src="images/skills/html.png"></div>
+		        <div><img class="skillList" alt="CSS"  title="CSS" src="images/skills/css.png"></div>
+		        <div><img class="skillList" alt="JavaScript" title="JavaScript" src="images/skills/js.png"></div>
+		        <div><img class="skillList" alt="Angular JS Framework" title="Angular JS Framework" src="images/skills/angular.png"></div>
+		        <div><img class="skillList" alt="Bootstrap Framework" title="Bootstrap Framework" src="images/skills/bootstrap.png"></div>
+		        <div><img class="skillList" alt="Git" title="Git" src="images/skills/git.png"></div>
+		        <div><img class="skillList" alt="Gulp JS" title="Gulp JS" src="images/skills/gulp.png"></div>
+		        <div><img class="skillList" alt="SASS Preprocessor" title="SASS Preprocessor" src="images/skills/sass.png"></div>
+		        <div><img class="skillList" alt="jQuery" title="jQuery" src="images/skills/jquery.png"></div>
+		        <div><img class="skillList" alt="Wordpress CMS" title="Wordpress CMS" src="images/skills/wordpress.png"></div>
+		        <div><img class="skillList" alt="PHP" title="PHP" src="images/skills/php.png"></div>
+		        <div><img class="skillList" alt="Firebase Cloud Database" title="Firebase Cloud Database" src="images/skills/firebase.png"></div>
+		        <div><img class="skillList" alt="MySql database" title="MySql database" src="images/skills/mysql.png"></div>
   			</div>
 		</div><!-- container-fluid skills-->
 	</div>
@@ -342,20 +339,13 @@
 					<a target="_blank" href="https://github.com/anushamedicharla">
 						<img src="images/github.jpg" class="contact_image">
 					</a>
-					<a target="_blank" href="www.linkedin.com/in/anushaprof">
-						<img src="images/linkedin.jpg" class="contact_image">
+					<a target="_blank" href="https://www.linkedin.com/in/anushaprof">
+						<img src="images/linkedin.png" class="contact_image">
 					</a>
 				</div>
 			</div>
 		</div><!-- container-fluid contactMe-->
 	</div>
-	
-
-	<!-- plane animation start-->
-	<script type="text/javascript" src="http://scrollmagic.io/js/lib/greensock/TweenMax.min.js"></script>
-	<script type="text/javascript" src="http://scrollmagic.io/scrollmagic/uncompressed/ScrollMagic.js"></script>
-	<script type="text/javascript" src="http://scrollmagic.io/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
-	<!-- plane animation end -->
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>

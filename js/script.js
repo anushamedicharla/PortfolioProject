@@ -8,17 +8,6 @@ $(window).resize(function(){
 	 checkWidth();
 });
 
-function checkWidth(init)
-{	
-    /*If browser resized, check width again */
-    if ($(window).width() < 768) {
-        $('#plane').addClass('no-display');
-    }
-    else {
-            $('#plane').removeClass('no-display');
-    }
-}
-
 function equalHeight(group) {    
     var tallest = $(this).height();   
     var widest	= 0; 
@@ -40,54 +29,14 @@ function equalHeight(group) {
 
 // Smooth Scrolling
 	function smoothScrollbyID(id) {
-		$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+		$('html,body').animate({scrollTop: ($("#"+id).offset().top) - 25},'slow');
 		return false;
 		};
 
 
 $(document).ready(function () { // wait for document ready
 
-	checkWidth();
 	equalHeight($(".thumbnail")); 
-
-	var flightpath = {
-		entry : {
-			curviness: 1.25,
-			autoRotate: true,
-			values: [
-					{x: 80,	y: -20},
-					{x: 150, y: 10}
-				]
-		},
-		looping : {
-			curviness: 1.25,
-			autoRotate: true,
-			values: [
-					{x: 310,	y: 60},
-					{x: 420,	y: -60},
-					{x: 300,	y: -100},
-					{x: 180,	y: 20},
-					{x: 300,	y: 60},
-					{x: 380,	y: 20},
-					{x: 420,	y: 15}
-				]
-		}
-	};
-	// init controller
-	var controller = new ScrollMagic.Controller();
-
-	// create tween
-	var tween = new TimelineMax()
-		.add(TweenMax.to($("#plane"), 1.2, {css:{bezier:flightpath.entry}, ease:Power1.easeInOut}))
-		.add(TweenMax.to($("#plane"), 2, {css:{bezier:flightpath.looping}, ease:Power1.easeInOut}));
-
-	// build scene
-	var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500, offset: 80})
-					.setPin("#target")
-					.setTween(tween)
-					.addIndicators() // add indicators (requires plugin)
-					.addTo(controller);
-
 
 	// carousel for skills page
 
