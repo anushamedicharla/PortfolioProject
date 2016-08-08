@@ -413,6 +413,24 @@ header .navbar-default .navbar-toggle{
 	    margin-right: auto;
 	    margin-left: auto;
 	}
+	#projects .modal .modal-content{
+		font-size: 0.7em;
+	}
+	#projects .modal-body a{
+		font-size: 0.7em;
+		display: block;
+		width: 20%;
+		overflow: hidden;
+	}
+	#aboutMe p{
+		font-size: 0.9em;
+	}
+	#projects .modal-body a span{
+		display: none;
+	}
+	.ProjLink::after, .githubLink::after{
+		display:inline-block;
+	}
 }
 
 @media only screen and (max-width: 500px){
@@ -436,5 +454,22 @@ header .navbar-default .navbar-toggle{
 	    margin-right: auto;
 	    margin-left: auto;
 	}
+	#projects .modal .modal-content{
+		font-size: 0.7em;
+	}
+	#projects .modal-body a{
+		font-size: 0.7em;
+		display: block;
+		width: 20%;
+		overflow: hidden;
+	}
+	#aboutMe p{
+		font-size: 0.9em;
+	}
+	#projects .modal-body a span{
+		display: none;
+	}
+	.ProjLink::after, .githubLink::after{
+		display:inline-block;
+	}
 }
-
