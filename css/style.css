@@ -43,11 +43,13 @@ header .navbar-default .navbar-nav a{
 
 }
 
-header .navbar-default .navbar-nav a:hover{
+header .navbar-default .navbar-nav a:hover,
+header .navbar-default .navbar-nav a:visited{
 	color: #EEC856;
 	background: transparent;
 	text-shadow: none;
 }
+
 
 
 header .navbar-default .navbar-nav .active a{
